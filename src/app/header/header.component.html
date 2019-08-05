@@ -28,7 +28,8 @@
            (click)="clickLogo($event)">
       <div class="pull-left">
         <h1><a href="http://blog.miniasp.com/">{{ sitename }}</a></h1>
-        <h3 [innerHTML]="subtitle"></h3>
+        <h3 [innerHTML]="subtitle" [ngClass]="{'highlight': counter%2==0}"></h3>
+        {{ counter }}
       </div>
       <div id="social-icons" class="pull-right social-icon">
         <a href="https://www.facebook.com/will.fans" title="Will 保哥的技術交流中心" target="_blank">
