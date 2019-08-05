@@ -19,6 +19,10 @@ export class AppComponent {
     });
   }
 
+  deleteArticle(id) {
+    console.log('刪除文章: ' + id);
+  }
+
   clearKeyword() {
     this.keyword = '';
   }
