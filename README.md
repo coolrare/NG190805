@@ -2,6 +2,26 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.2.0.
 
+## 初始化專案
+
+1. 建立新專案
+
+    ```sh
+    ng new NG190805 --routing --style css
+    ```
+
+2. 進入資料夾
+
+    ```sh
+    cd NG190805
+    ```
+
+3. 啟動開發伺服器
+
+    ```sh
+    npm start
+    ```
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
