@@ -8,6 +8,15 @@ import { Component } from '@angular/core';
 export class AppComponent {
   keyword = '';
 
+  ngOnInit() {
+    fetch('/api/articles.json')
+    .then((res) => {
+      return res.json();
+    }).then((data) => {
+      console.log(data);
+    });
+  }
+
   clearKeyword() {
     this.keyword = '';
   }
