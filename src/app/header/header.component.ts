@@ -14,9 +14,9 @@ export class HeaderComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
-    setTimeout(() => {
-      this.sitename = 'The Will Will Web';
-    }, 2000);
+  }
+  clickLogo() {
+    this.sitename = 'The Will Will Web';
   }
 
 }
