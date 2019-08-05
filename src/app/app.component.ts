@@ -6,9 +6,14 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  keyword = 'TEST';
+  keyword = '';
 
   clearKeyword() {
     this.keyword = '';
+  }
+
+  doSearch(keyword: string) {
+    this.keyword = keyword;
+    alert('You searched: ' + keyword);
   }
 }
